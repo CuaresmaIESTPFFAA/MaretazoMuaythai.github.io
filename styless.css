@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgba(127, 159, 177, 0.411);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header {
+    background-color: azure;
+    width: 100%;
+    clear: both;
+    content: none;
+    display: table;
+}
+.menu {
+    width: 900px;
+    margin: 0 auto;
+}
+img {
+    width: 100px;
+    height: 90px;
+    float: left;
+    padding: 1px;
+}
+nav{
+    float: right;
+}
+nav ul li {
+    list-style: none;
+    margin-left: 25px;
+    padding: 25px;
+    float: left;
+    position: relative;
+}
+nav ul li a {
+    text-decoration: none;
+    color: aqua;
+    font-weight: bold;
+}
+nav ul li a::before {
+    display: block;
+    content: "";
+    width: 0%;
+    background: #444;
+    height: 5px;
+    top: 0;
+    position: absolute;
+    transition: width 0.4s;
+}
+nav ul li a:hover::before{
+width: 100%;
+}
+.social-icons{
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+  }
+  .ima{
+    height: 1cm;
+    width: 1cm;
+  }
+  .imaa{
+    height: 1cm;
+    width: 1cm;
+  }
+  .imaaa{
+    height: 1cm;
+    width: 1cm;
+  }
+  .imaaaa{
+    height: 1cm;
+    width: 1cm;
+  }
+.creatina{
+    height: 300px;
+    width: 300px;
+    margin-left: 1cm;
+}
+.maca{
+    height: 300px;
+    width: 300px;
+    margin-left: 1cm;
+}
+.bcaa{
+    margin-left: 1cm;
+    height: 300px;
+    width: 300px;
+}
+.quemadores{
+    height: 300px;
+    width: 300px; 
+}
+h2{
+    display: flex;
+    font-size: xx-large;
+    font-weight: 600;
+    margin-left: 10cm;
+    padding-left: 8cm;
+}
+p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    font-size: medium;
+    font: 300;
+    margin-left: 6cm;
+    padding-left: 6cm;
+}
+.chino{
+    width: 220px;
+    height: 220px;
+    margin-top: -4cm;
+}
+.chinoo{
+    width: 220px;
+    height: 220px;
+    margin-top: -4cm;
+}
+.Horarios{
+    width: 800px;
+    height: 800px;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 3cm;
+}
+h3{
+    margin-top: 6cm;
+    display: flex;
+    font-size: xx-large;
+    font: 200;
+    margin-left: 10cm;
+    padding-left: 8cm;
+}
+h4{
+    margin-top: 2cm;
+    font-size: xx-large;
+    justify-content: center ;
+    margin-left: 13.4cm;
+}
+.creaa{
+margin-left: -2.3cm;
+font-weight: bolder;
+background-color: #217ce4;
+color: aliceblue;
+}
+.macaa{
+margin-top: -2cm;
+margin-left: 6.5cm;
+font-weight: bolder;
+background-color: #217ce4;
+color: aliceblue;
+}
+.bcaaa{
+margin-top: -2cm;
+margin-left: 16cm;
+font-weight: bolder;
+background-color: #217ce4;
+color: aliceblue;
+}
+.quemaa{
+margin-top: -2cm;    
+margin-left: 23.5cm;
+font-weight: bolder;
+background-color: #217ce4;
+color: aliceblue;
+}
